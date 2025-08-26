@@ -9,7 +9,7 @@ const cognitoAuthConfig = {
   redirect_uri: "http://localhost:5173", // must match Cognito callback URL
   post_logout_redirect_uri: "http://localhost:5173", // must also match Cognito redirect URL
   response_type: "code",
-  scope: "openid email",
+  scope: "openid email profile",
 };
 
 ReactDOM.createRoot(document.getElementById("root")).render(
